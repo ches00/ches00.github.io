@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <header>
+      {% if page.title %}
+        <h1 class="page__title" itemprop="headline">
+          <a href="{{ page.paperurl }}">{{ page.title }}</a>
+        </h1>
+      {% endif %}
+      {% if page.authorlist %}
+        <p><strong>Authors:</strong> {{ page.authorlist}}</p>
+      {% endif %}
+      {% if page.venue and page.date %}
+        <p><strong>Published in:</strong> <i>{{ page.venue }}</i>, {{ page.date | date: '%Y' }}</p>
+      {% endif %}
+    </header>
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+
+    <footer class="page__meta">
+      {% if page.citation %}
+        <p style="font-size: smaller"><strong>Recommended citation:</strong> {{ page.citation }}</p>
+      {% endif %}
+      {% if page.link %}
+        <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
+      {% endif %}
+    </footer>
+  </article>
+</div>

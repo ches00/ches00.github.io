@@ -1,0 +1,46 @@
+<head>
+    <style>
+        .publication-entry {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding-bottom: 15px; 
+            border-bottom: 1px solid; 
+        }
+          
+        .publication-image {
+            flex-shrink: 0;
+            height: auto;
+            width: 200px;
+            object-fit: cover;
+        }
+          
+        .publication-content {
+            flex-grow: 1;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+
+  
+<article class="publication-list">
+    <div class="publication-entry">
+        <img src="{{ post.image_url }}" alt="Publication Image" class="publication-image">
+        <div class="publication-content">
+            <h2 class="publication-title">
+                <a href="{{ post.paperurl }}">{{ post.title }}</a>
+            </h2>
+            <p class="publication-authors">{{ post.authorlist }}</p>
+            <p class="publication-details">
+                <strong>{{ post.venue }}</strong>
+                {% if post.highlight or post.impact_factor %}
+                    <em>
+                        {% if post.highlight %} {{ post.highlight }}{% endif %}
+                        {% if post.impact_factor %} Impact Factor: {{ post.impact_factor }}{% endif %}
+                    </em>
+                {% endif %}
+            </p>
+        </div>
+    </div>
+</article>

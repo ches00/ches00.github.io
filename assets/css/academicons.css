@@ -569,3 +569,23 @@ border-radius: .1em;
 .ai-inverse {
   color: #fff;
 }
+
+.publication-entry {
+  display: flex;
+  align-items: stretch; /* 모든 아이템을 컨테이너 높이에 맞춤 */
+  width: 100%;
+}
+
+.publication-image {
+  flex-shrink: 0;
+  height: 50%; /* 이미지를 부모의 높이에 맞춤 */
+  width: auto; /* 너비는 자동으로 조정되어 비율이 유지됨 */
+  object-fit: cover; /* 이미지가 비율을 유지하면서 컨테이너를 채움 */
+}
+
+.publication-content {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+
