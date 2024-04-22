@@ -19,11 +19,17 @@
             flex-grow: 1;
             padding-left: 20px;
         }
+
+        .equal-contribution-note {
+            font-style: italic;
+            color: #666;
+            padding-bottom: 10px; 
+            text-align: center; 
+        }
     </style>
 </head>
 
 
-  
 <article class="publication-list">
     <div class="publication-entry">
         <img src="{{ post.image_url }}" alt="Publication Image" class="publication-image">
@@ -31,7 +37,20 @@
             <h2 class="publication-title">
                 <a href="{{ post.paperurl }}">{{ post.title }}</a>
             </h2>
-            <p class="publication-authors">{{ post.authorlist }}</p>
+            <p class="publication-authors">
+                {% assign authors = post.authorlist | split: ',' %}
+                {% assign total_authors = authors | size %}
+                {% for author in authors %}
+                    {% assign trimmed_author = author | strip %}
+                    {% if trimmed_author == "Eunsue Choi" or trimmed_author == "Eunsue Choi*" %}
+                        <strong>{{trimmed_author}}</strong>
+                    {% else %}
+                        {{trimmed_author}}
+                    {% endif %}
+                {% if foloop.index != total_authors %},{% endif %}  
+                {% endfor %}
+            </p>
+
             <p class="publication-details">
                 <strong>{{ post.venue }}</strong>
                 {% if post.highlight or post.impact_factor %}

@@ -1,5 +1,5 @@
 ---
-layout: publication
+layout: archive
 title: "360∘ Structured Light with Learned Metasurfaces"
 authorlist: "Eunsue Choi*, Gyeongtae Kim*, Jooyeong Yun, Yujin Jeon, Junsuk Rho+, Seung-Hwan Baek+"
 venue: "Nature Photonics (in press), 2024"
