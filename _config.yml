@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Eunsue Choi"
-  pronouns         : # example: "she/her"  
+  pronouns         : "she/her"
   bio              : "Computer Graphics Lab"
   location         : "South Korea"
   employer         : "POSTECH"
@@ -204,6 +204,7 @@ collections:
     permalink: /:collection/:path/
 
 
+
 # Defaults
 defaults:
 
@@ -224,6 +225,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+
+  - scope:
+      path: "cv.md"
+    values: 
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+
 
 
 
