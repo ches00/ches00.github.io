@@ -1,0 +1,38 @@
+# News items. Add new entries at the top (newest first).
+# `text` supports Markdown (links, *italic*, <u>underline</u>, ...).
+
+- date: "2026.09"
+  text: "One paper has been accepted to <u>SIGGRAPH Asia 2026</u>!"
+
+- date: "2026.06"
+  text: "One paper has been accepted to <u>Nature Communications</u>!"
+
+- date: "2026.06"
+  text: "Joined Meta as a Research Scientist Intern on the Display Systems Research team"
+
+- date: "2025.09"
+  text: "Awarded the NRF PhD Fellowship from the National Research Foundation of Korea"
+
+- date: "2025.06"
+  text: "Joined Meta as a Research Scientist Intern on the Display Systems Research team"
+
+- date: "2025.05"
+  text: "Receive the Postechian Fellowship from POSTECH"
+
+- date: "2024.08"
+  text: "Our 360 Structured light paper has been featured in [Nature Computational Science's special issue](https://www.nature.com/collections/ibhgadjiif), highlighted in [editorial](https://www.nature.com/articles/s43588-024-00687-4) and [research highlights](https://www.nature.com/articles/s43588-024-00684-7)!"
+
+- date: "2024.07"
+  text: "Received the Best Master's Thesis at Korea Computer Graphics Society"
+
+- date: "2024.06"
+  text: "One of my projects will be presented at the [CCD Workshop](https://csiplab.github.io/ccd2024/) in <u>CVPR 2024</u> in Seattle"
+
+- date: "2024.03"
+  text: "One paper has been accepted to <u>CVPR 2024</u> as a *highlight* paper!"
+
+- date: "2024.02"
+  text: "One paper has been accepted to <u>Nature Photonics</u>!"
+
+- date: "2024.02"
+  text: "Selected as an Outstanding Interdisciplinary Research Team at POSTECH through collaboration with [Rho's research lab](https://sites.google.com/site/junsukrho/welcome?authuser=0)!"

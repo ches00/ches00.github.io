@@ -15,11 +15,11 @@ I received my Bachelor's degree in Computer Science and Engineering from POSTECH
 
 News
 ------
-- [2024.08] Our 360 Structured light paper has been featured in [Nature Computational Science's special issue](https://www.nature.com/collections/ibhgadjiif), highlighted in [editorial](https://www.nature.com/articles/s43588-024-00687-4) and [research highlights](https://www.nature.com/articles/s43588-024-00684-7)! 
-- [2024.06] One of my project will be presented at the [CCD Workshop](https://csiplab.github.io/ccd2024/) in <u>CVPR 2024</u> in Seattle
-- [2024.03] One paper has been accepted to <u>CVPR 2024</u> as a *highlight* paper!
-- [2024.02] One paper has been accepted to <u>Nature Photonics</u>!
-- [2024.02] Selected as an Outstanding Interdisciplinary Research Team at POSTECH through collabroation with [Rho's research lab](https://sites.google.com/site/junsukrho/welcome?authuser=0)!
+{% include base_path %}
+{% include news-list.html limit=5 %}
+{% if site.data.news.size > 5 %}
+<p><a href="{{ base_path }}/news/">More &raquo;</a></p>
+{% endif %}
 
 
 

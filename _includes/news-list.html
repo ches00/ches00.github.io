@@ -1,0 +1,10 @@
+{% comment %}
+  Renders items from _data/news.yml (newest first).
+  Usage: {% include news-list.html limit=5 %}  (omit limit to show all)
+{% endcomment %}
+{% assign news_limit = include.limit | default: site.data.news.size %}
+<ul class="news-list">
+{% for item in site.data.news limit: news_limit %}
+  <li>[{{ item.date }}] {{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+{% endfor %}
+</ul>
