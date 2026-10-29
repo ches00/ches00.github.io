@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am currently a first-year PhD student at POSTECH, advised by Prof. [Seung-Hwan Baek](https://www.shbaek.com/) in the [Computer Graphics Lab](https://cg.postech.ac.kr). My interests lie in computer graphics, computer vision, optics, and metasurfaces. My research aims to co-design optical hardware and downstream vision software through an end-to-end optimization. I believe I can contribute to exploring next-generation cameras, lenses, displays, and sensing technologies for smart devices, autonomous vehicles and VR/AR.
+Hi, I am currently a third-year PhD student at POSTECH, advised by Prof. [Seung-Hwan Baek](https://www.shbaek.com/) in the [Computer Graphics Lab](https://cg.postech.ac.kr). My interests lie in computational imaging, computer vision, diffractive optics, and nanophotonics such as metasurfaces. My research aims to understand and utilize the wave properties of light for imaging and displays in a computational manner. I believe I can contribute to exploring next-generation cameras, lenses, displays, and sensing for smart devices, robots, autonomous vehicles, and VR/AR.
 
-I received my Bachelor's degree in Computer Science and Engineering from POSTECH with magna cum laude honors. During my undergraduate studies, I acquired knowledge in system hacking and participated in the DEFCON 2019 finals as a member of the Hacking Club PLUS. Additionally, I am an avid gamer; I enjoy video games on Xbox that feature impressive graphics and storytelling, such as Hades, Baldur's Gate, The Witcher, Assassin's Creed, and the Diablo series.
+I received my Bachelor's degree in Computer Science and Engineering from POSTECH with magna cum laude honors.
 
 
 
