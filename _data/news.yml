@@ -1,6 +1,9 @@
 # News items. Add new entries at the top (newest first).
 # `text` supports Markdown (links, *italic*, <u>underline</u>, ...).
 
+- date: "2026.11"
+  text: "One paper has been accepted to <u>Nature Nanotechnology</u>!"
+
 - date: "2026.09"
   text: "One paper has been accepted to <u>SIGGRAPH Asia 2026</u>!"
 
